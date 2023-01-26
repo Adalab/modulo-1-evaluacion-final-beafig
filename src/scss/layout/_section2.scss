@@ -1,0 +1,41 @@
+.section2 {
+  background-color: $color-background1;
+  text-align: center;
+  padding: 29px 0 5px 0;
+  &__title {
+    font: $robotoSlab_20;
+    line-height: 30px;
+    margin: 0 15px;
+  }
+  &__article {
+    padding: 41px 74px 0 62px;
+  }
+  &__title2 {
+    font: $robotoSlab_18;
+  }
+  &__text {
+    font: $robotoRegular_18;
+  }
+  &__button {
+    width: 184px;
+    height: 45px;
+    color: $color-text1;
+    font: $robotoMedium_20;
+    background-color: $color-main;
+    border: none;
+    border-radius: 22.5px;
+    margin-top: 30px;
+  }
+  &__container {
+    background-color: $color-text1;
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+  }
+}
