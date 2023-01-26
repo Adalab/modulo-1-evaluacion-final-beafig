@@ -1,7 +1,38 @@
 .hero {
+  color: $color-text1;
+  text-align: center;
   &__img {
     height: 100vh;
     width: 100vw;
     object-fit: cover;
+  }
+  &__container {
+    width: 100%;
+    position: absolute;
+    top: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__title {
+    font: $robotoSlab_30;
+    line-height: 50px;
+    width: 16ch;
+  }
+  &__text {
+    font: $robotoRegular_16;
+    line-height: 19px;
+    width: 26ch;
+  }
+  &__button {
+    width: 38px;
+    height: 38px;
+    background-color: $color-text1;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
