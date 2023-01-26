@@ -1,3 +1,27 @@
 .section1 {
-  width: 100vw;
+  padding: 34px 12px 12px 21px;
+  &__small {
+    font: $robotoRegular_14;
+    color: $color-main;
+    line-height: 30px;
+  }
+  &__title {
+    font: $robotoSlab_24;
+    line-height: 30px;
+    margin-bottom: 11px;
+  }
+  &__text {
+    font: $robotoRegular_18;
+    color: $color-background2;
+    line-height: 30px;
+  }
+  &__button {
+    width: 160px;
+    height: 45px;
+    background-color: $color-text1;
+    color: $color-main;
+    font: $robotoMedium_20;
+    border: solid 2px $color-main;
+    border-radius: 22.5px;
+  }
 }
