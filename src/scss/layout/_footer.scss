@@ -1,0 +1,33 @@
+.footer {
+  background-color: $color-background2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 65px 0 36px 0;
+  &__nav {
+    color: $color-text1;
+    font: $robotoRegular_16;
+    line-height: 30px;
+  }
+  &__store {
+    margin-bottom: 30px;
+  }
+  &__copy {
+    font: $robotoRegular_14;
+    color: $color-text1;
+    line-height: 30px;
+    margin-top: 32px;
+  }
+  &__text {
+    color: $color-text1;
+    font: $robotoRegular_14;
+    line-height: 30px;
+  }
+  &__link {
+    color: $color-text1;
+  }
+}
+.fa-solid {
+  color: $color-main;
+}
