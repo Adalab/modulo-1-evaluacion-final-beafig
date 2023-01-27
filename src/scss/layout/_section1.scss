@@ -1,19 +1,32 @@
 .section1 {
   padding: 34px 12px 50px 16px;
+  @media all and (min-width: 768px) {
+    padding: 37px 39px 51px 37px;
+  }
   &__small {
     font: $robotoRegular_14;
     color: $color-main;
     line-height: 30px;
+    @media all and (min-width: 768px) {
+      font: $robotoRegular_16;
+    }
   }
   &__title {
     font: $robotoSlab_24;
     line-height: 30px;
     margin-bottom: 11px;
+    @media all and (min-width: 768px) {
+      font: $robotoSlab_32;
+      line-height: 45px;
+    }
   }
   &__text {
     font: $robotoRegular_18;
     color: $color-background2;
     line-height: 30px;
+    @media all and (min-width: 768px) {
+      font: $robotoRegular_20;
+    }
   }
   &__button {
     width: 160px;

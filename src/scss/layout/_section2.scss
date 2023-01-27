@@ -2,29 +2,51 @@
   background-color: $color-background1;
   text-align: center;
   padding: 29px 0 5px 0;
+  @media all and (min-width: 768px) {
+    padding: 49px 0 11px 0;
+  }
   &__title {
     font: $robotoSlab_20;
     line-height: 30px;
-    margin: 0 15px;
+    margin: 0 50px;
+    @media all and (min-width: 768px) {
+      font: $robotoSlab_28;
+      line-height: 45px;
+    }
   }
   &__article {
     padding: 41px 74px 0 62px;
+    @media all and (min-width: 768px) {
+      padding: 38px 37px 0 37px;
+    }
   }
   &__title2 {
     font: $robotoSlab_18;
+    @media all and (min-width: 768px) {
+      font: $robotoSlab_24;
+      line-height: 30px;
+    }
   }
   &__text {
     font: $robotoRegular_18;
+    @media all and (min-width: 768px) {
+      font: $robotoRegular_20;
+      padding-top: 18px;
+    }
   }
   &__button {
     width: 184px;
     height: 45px;
     color: $color-text1;
     font: $robotoMedium_20;
+    line-height: 45px;
     background-color: $color-main;
     border: none;
     border-radius: 22.5px;
     margin-top: 30px;
+    @media all and (min-width: 768px) {
+      margin-top: 48px;
+    }
   }
   &__container {
     background-color: $color-text1;
@@ -37,5 +59,15 @@
     border-radius: 50%;
     position: relative;
     top: 25px;
+    @media all and (min-width: 768px) {
+      top: 32px;
+    }
+  }
+  &__container2 {
+    @media all and (min-width: 768px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 30px;
+    }
   }
 }
