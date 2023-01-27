@@ -4,7 +4,7 @@
 
 ¡Hola 👋🏽! Este es mi ejercicio para superar el primer modulo del bootcamp de programación en Adalab.
 
-El ejercicio consiste en crear un página web, replicando un diseño dado, y usando las herramientas 🛠️ que hemos aprendido a manejar hasta ahora que son:
+El ejercicio consiste en crear un página web, replicando un diseño dado, y usando las herramientas 🛠️ que hemos aprendido a manejar hasta ahora, que son:
 
 - VISUAL STUDIO CODE 💻
 - HTML 🖊️
