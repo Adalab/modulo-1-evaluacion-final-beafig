@@ -40,8 +40,6 @@
     border: solid 2px $color-main;
     border-radius: 22.5px;
     margin-top: 20px;
-  }
-  &__button::after {
-    transform: rotate(1turn);
+    cursor: pointer;
   }
 }
