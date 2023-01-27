@@ -19,32 +19,41 @@
     </div>
   </section>
   <section class="section1">
-    <small class="section1__small">Los sentimientos nos inspiran</small>
+    <p class="section1__small">Los sentimientos nos inspiran</p>
     <h2 class="section1__title">Conecta Contigo</h2>
     <p class="section1__text">
       Esto es una celebración de todo lo que nos mueve. Del poder de elegir y de
       la libertad de ser. Rendimos homenaje al hermoso caos del movimiento y a
       la plena consciencia que tan bien nos hacen sentir.
     </p>
-    <button class="section1__button">Comprar</button>
+    <include
+      src="./button.html"
+      class="section1__button"
+      text="Comprar"
+    ></include>
   </section>
   <section class="section2" id="section2">
     <h2 class="section2__title">Año nuevo, movimientos nuevos</h2>
-    <div class="section2__container2">
-      <article class="section2__article">
-        <h3 class="section2__title2">Entrenamientos</h3>
-        <p class="section2__text">Sesiones de running y entrenamientos.</p>
-      </article>
-      <article class="section2__article">
-        <h3 class="section2__title2">Cualquier nivel</h3>
-        <p class="section2__text">Entrenamientos para cada nivel.</p>
-      </article>
-      <article class="section2__article">
-        <h3 class="section2__title2">Exclusividad</h3>
-        <p class="section2__text">Productos para miembros premium.</p>
-      </article>
-    </div>
-    <button class="section2__button">Empezar ahora</button>
+    <include
+      src="./article.html"
+      title="Entrenamientos"
+      description="Sesiones de running y entrenamientos."
+    ></include>
+    <include
+      src="./article.html"
+      title="Entrenamientos"
+      description="Entrenamientos para cada nivel."
+    ></include>
+    <include
+      src="./article.html"
+      title="Exclusividad"
+      description="Productos para miembros premium."
+    ></include>
+    <include
+      src="./button.html"
+      class="section2__button"
+      text="Empezar ahora"
+    ></include>
     <div class="section2__container">
       <a href="#main" class="section2__link">
         <img
