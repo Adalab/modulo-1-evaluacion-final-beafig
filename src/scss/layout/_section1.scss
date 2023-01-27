@@ -3,6 +3,9 @@
   @media all and (min-width: 768px) {
     padding: 37px 39px 51px 37px;
   }
+  @media all and (min-width: 1200px) {
+    padding: 58px 136px 67px 275px;
+  }
   &__small {
     font: $robotoRegular_14;
     color: $color-main;
@@ -37,5 +40,8 @@
     border: solid 2px $color-main;
     border-radius: 22.5px;
     margin-top: 20px;
+  }
+  &__button::after {
+    transform: rotate(1turn);
   }
 }

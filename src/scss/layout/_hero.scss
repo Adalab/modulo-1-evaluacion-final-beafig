@@ -16,14 +16,23 @@
     @media all and (min-width: 768px) {
       transform: translateY(-350px);
     }
+    @media all and (min-width: 1200px) {
+      transform: translateY(-400px);
+    }
   }
   &__title {
     font: $robotoSlab_30;
     line-height: 50px;
     width: 16ch;
+    text-shadow: 0 2px 3px $color-shadow;
     @media all and (min-width: 768px) {
       font: $robotoSlab_75;
       line-height: 100px;
+    }
+    @media all and (min-width: 1200px) {
+      font: $robotoSlab_100;
+      line-height: 132px;
+      text-shadow: 0 2px 5px $color-shadow;
     }
   }
   &__text {
@@ -31,6 +40,9 @@
     line-height: 19px;
     width: 26ch;
     @media all and (min-width: 768px) {
+    }
+    @media all and (min-width: 1200px) {
+      width: auto;
     }
     font: $robotoRegular_24;
   }
@@ -47,6 +59,10 @@
     @media all and (min-width: 768px) {
       width: 43px;
       height: 45px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 46px;
+      height: 46px;
     }
   }
 }

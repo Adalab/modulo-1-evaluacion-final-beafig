@@ -5,6 +5,9 @@
   @media all and (min-width: 768px) {
     padding: 49px 0 11px 0;
   }
+  @media all and (min-width: 1024px) {
+    padding-bottom: 21px;
+  }
   &__title {
     font: $robotoSlab_20;
     line-height: 30px;
@@ -15,9 +18,23 @@
     }
   }
   &__article {
-    padding: 41px 74px 0 62px;
+    padding: 45px 70px 0 66px;
     @media all and (min-width: 768px) {
-      padding: 38px 37px 0 37px;
+      padding: 38px 0 0 0;
+    }
+    @media all and (min-width: 1200px) {
+      padding: 51px 0 0 0;
+    }
+  }
+  &__container {
+    @media all and (min-width: 768px) {
+      padding: 0 29px 0 47px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+    }
+    @media all and (min-width: 1200px) {
+      padding: 0 60px 0 50px;
     }
   }
   &__title2 {
@@ -45,10 +62,13 @@
     border-radius: 22.5px;
     margin-top: 30px;
     @media all and (min-width: 768px) {
-      margin-top: 48px;
+      margin-top: 38px;
+    }
+    @media all and (min-width: 1024px) {
+      margin-top: 68px;
     }
   }
-  &__container {
+  &__container2 {
     background-color: $color-text1;
     width: 45px;
     height: 45px;
@@ -62,12 +82,8 @@
     @media all and (min-width: 768px) {
       top: 32px;
     }
-  }
-  &__container2 {
-    @media all and (min-width: 768px) {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 30px;
+    @media all and (min-width: 1024px) {
+      top: 45px;
     }
   }
 }

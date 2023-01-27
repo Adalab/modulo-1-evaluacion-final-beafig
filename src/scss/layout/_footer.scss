@@ -7,7 +7,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 56px 150px 34px 150px;
+    padding: 56px 150px 14px 150px;
+  }
+  @media all and (min-width: 1200px) {
+    padding: 50px 370px 20px;
   }
   &__container {
     @media all and (min-width: 768px) {
