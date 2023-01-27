@@ -14,7 +14,7 @@ El ejercicio consiste en crear un página web, replicando un diseño dado, y usa
 - GULP 🤖
 - ZEPLIN 🪞
 
-Para ello se me ha facilitado además del diseño en Zeplin, un Starter Kit de Adabal que incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más.
+Para ello se me ha facilitado además del diseño en Zeplin, un Starter Kit de Adalab que incluye un motor de plantillas HTML, el preprocesador SASS, un servidor local y muchas cosas más.
 
 En el ejercicio hay 3 tipos de ficheros y carpetas:
 
