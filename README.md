@@ -1,4 +1,4 @@
-![Code](https://wilmerterrero.com/ef8ab669143b9436e032ab03384de652/emmet-1-demo.gif)
+![Code](./docs/assets/images/studying.png)
 
 # Ejercicio de evaluación modulo 1 de Bea Figueroa
 
