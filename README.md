@@ -1,4 +1,4 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+![Code](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwilmerterrero.com%2Fblog%2Fcomo-escribir-html-css-mas-rapido%2F&psig=AOvVaw2UkZ84lSpZfLnRV9JaHt0L&ust=1675000299252000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPjcncC06vwCFQAAAAAdAAAAABAE)
 
 # Ejercicio de evaluación modulo 1 de Bea Figueroa
 
