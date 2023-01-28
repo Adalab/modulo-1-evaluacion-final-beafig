@@ -4,7 +4,7 @@
   top: 15px;
   left: 15px;
 }
-.hero__container2:hover {
+.hero__container--button:hover {
   background-color: $color-background2;
   box-shadow: 2px 3px 3px $color-shadow2;
   animation-name: bounce;
@@ -47,7 +47,7 @@
 .section2__arrow:hover {
   filter: saturate(0);
 }
-.section2__container2:hover {
+.section2__container--button:hover {
   animation-name: appear;
   animation-duration: 2s;
   box-shadow: 2px 3px 3px $color-shadow2;

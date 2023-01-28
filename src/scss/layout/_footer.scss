@@ -4,18 +4,11 @@
   padding: 65px 0 36px 0;
   @media all and (min-width: 768px) {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
-    padding: 56px 150px 14px 150px;
+    padding: 56px 150px 34px 150px;
   }
   @media all and (min-width: 1200px) {
-    padding: 50px 370px 20px;
-  }
-  &__container {
-    @media all and (min-width: 768px) {
-      order: -1;
-    }
+    padding: 50px 370px 40px;
   }
   &__nav {
     color: $color-text1;
@@ -27,11 +20,13 @@
     font: $robotoRegular_16;
     line-height: 30px;
   }
-  &__links {
-    margin-bottom: 30px;
-  }
   &__link {
     color: $color-text1;
+  }
+  &__container {
+    @media all and (min-width: 768px) {
+      order: -1;
+    }
   }
   &__copy {
     font: $robotoRegular_14;

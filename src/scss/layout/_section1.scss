@@ -6,14 +6,6 @@
   @media all and (min-width: 1200px) {
     padding: 58px 136px 67px 275px;
   }
-  &__small {
-    font: $robotoRegular_14;
-    color: $color-main;
-    line-height: 30px;
-    @media all and (min-width: 768px) {
-      font: $robotoRegular_16;
-    }
-  }
   &__title {
     font: $robotoSlab_24;
     line-height: 30px;
@@ -22,6 +14,9 @@
       font: $robotoSlab_32;
       line-height: 45px;
     }
+    @media all and (min-width: 1200px) {
+      margin-bottom: 7px;
+    }
   }
   &__text {
     font: $robotoRegular_18;
@@ -29,6 +24,16 @@
     line-height: 30px;
     @media all and (min-width: 768px) {
       font: $robotoRegular_20;
+      line-height: 30px;
+    }
+    &--small {
+      font: $robotoRegular_14;
+      color: $color-main;
+      line-height: 30px;
+      @media all and (min-width: 768px) {
+        font: $robotoRegular_16;
+        line-height: 30px;
+      }
     }
   }
   &__button {
@@ -41,5 +46,8 @@
     border-radius: 22.5px;
     margin-top: 20px;
     cursor: pointer;
+    @media all and (min-width: 1200px) {
+      margin-top: 25px;
+    }
   }
 }

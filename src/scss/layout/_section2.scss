@@ -16,6 +16,18 @@
       font: $robotoSlab_28;
       line-height: 45px;
     }
+    @media all and (min-width: 1024px) {
+      font: $robotoSlab_32;
+      line-height: 45px;
+    }
+    &--article {
+      font: $robotoSlab_18;
+      line-height: 30px;
+      @media all and (min-width: 768px) {
+        font: $robotoSlab_24;
+        line-height: 30px;
+      }
+    }
   }
   &__article {
     padding: 45px 70px 0 66px;
@@ -36,19 +48,35 @@
     @media all and (min-width: 1200px) {
       padding: 0 60px 0 50px;
     }
-  }
-  &__title2 {
-    font: $robotoSlab_18;
-    @media all and (min-width: 768px) {
-      font: $robotoSlab_24;
-      line-height: 30px;
+    &--button {
+      background-color: $color-text1;
+      width: 45px;
+      height: 45px;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      position: relative;
+      top: 25px;
+      @media all and (min-width: 768px) {
+        top: 32px;
+      }
+      @media all and (min-width: 1024px) {
+        top: 45px;
+      }
     }
   }
   &__text {
     font: $robotoRegular_18;
+    line-height: 30px;
     @media all and (min-width: 768px) {
       font: $robotoRegular_20;
       padding-top: 18px;
+      line-height: 30px;
+    }
+    @media all and (min-width: 1200px) {
+      padding-top: 26px;
     }
   }
   &__button {
@@ -66,25 +94,7 @@
       margin-top: 38px;
     }
     @media all and (min-width: 1024px) {
-      margin-top: 68px;
-    }
-  }
-  &__container2 {
-    background-color: $color-text1;
-    width: 45px;
-    height: 45px;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    position: relative;
-    top: 25px;
-    @media all and (min-width: 768px) {
-      top: 32px;
-    }
-    @media all and (min-width: 1024px) {
-      top: 45px;
+      margin-top: 48px;
     }
   }
 }
