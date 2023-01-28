@@ -1,4 +1,4 @@
-![Code](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwilmerterrero.com%2Fblog%2Fcomo-escribir-html-css-mas-rapido%2F&psig=AOvVaw2UkZ84lSpZfLnRV9JaHt0L&ust=1675000299252000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPjcncC06vwCFQAAAAAdAAAAABAE)
+![Code](https://wilmerterrero.com/ef8ab669143b9436e032ab03384de652/emmet-1-demo.gif)
 
 # Ejercicio de evaluación modulo 1 de Bea Figueroa
 
